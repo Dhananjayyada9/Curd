@@ -4,8 +4,8 @@
 	<title></title>
 </head>
 <body>
-	<form action="welcome.php" method="Get">
-		UserName<input type="text" name="name"><br>
+	<form action="welcome.php" method="post">
+		UserName<input type="text" name="name" required=""><br>
 <input type="submit" name="">
 </form>
 
