@@ -6,7 +6,7 @@
 <body>
 <?php
 $name=$_GET['name'];
-if (!isset($name) || !strlen($name)) {
+if (!isset($name)) {
 	echo "you submited is empty  ";
 }else{
 	echo "Form submited .";
